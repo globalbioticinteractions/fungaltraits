@@ -30,7 +30,7 @@ To help aid machine-readability of the data appendices of Põlme et al. 2020, sn
 preston track --algo md5 \
  https://static-content.springer.com/esm/art%3A10.1007%2Fs13225-020-00466-2/MediaObjects/13225_2020_466_MOESM5_ESM.xlsx \
  https://static-content.springer.com/esm/art%3A10.1007%2Fs13225-020-00466-2/MediaObjects/13225_2020_466_MOESM6_ESM.xlsx \
-https://static-content.springer.com/esm/art%3A10.1007%2Fs13225-020-00466-2/MediaObjects/13225_2020_466_MOESM4_ESM.xlsx
+ https://static-content.springer.com/esm/art%3A10.1007%2Fs13225-020-00466-2/MediaObjects/13225_2020_466_MOESM4_ESM.xlsx
 ```
 
 ## Fungal Traits of Sequences
@@ -129,6 +129,7 @@ preston cat hash://md5/147d1eed43249ce2ac1f8b9fb63765b1 \
  | grep "13225_2020_466_MOESM4_ESM.xlsx" \
  | preston xlsx-stream \
  | grep 'line:xlsx:hash://md5/9168998921adc01b1cf63d9cdca8342e!/data!/L' \
+ | jq -c 'del(.["column24"])' \
  | mlr --ijsonl --otsvlite cat \
  > polme2020-s1-fungal-traits-genera.tsv 
 ```
@@ -140,15 +141,13 @@ preston cat hash://md5/147d1eed43249ce2ac1f8b9fb63765b1 \
  | grep hasVersion \
  | grep "13225_2020_466_MOESM4_ESM.xlsx" \
  | preston xlsx-stream \
- | grep 'line:xlsx:hash://md5/9168998921adc01b1cf63d9cdca8342e!/data!/L' \ 
+ | grep 'line:xlsx:hash://md5/9168998921adc01b1cf63d9cdca8342e!/data!/L' \
+ | jq -c 'del(.["column24"])' \
  | mlr --ijsonl --ocsv cat \
  > polme2020-s1-fungal-traits-genera.csv
 ```
 
-respectively.
-
-with first record being
-
+respectively, with first record being:
 
 ```
 http://www.w3.org/ns/prov#wasDerivedFrom   line:xlsx:hash://md5/9168998921adc01b1cf63d9cdca8342e!/data!/L2
@@ -177,8 +176,10 @@ Ectomycorrhiza_exploration_type_template
 Ectomycorrhiza_lineage_template            
 primary_photobiont                         
 secondary_photobiont                       
-column24                                   
 ```
+
+Note that only the "data" sheet of the S1 Traits of General XLSX file was included. Also, cells beyond the column ```secondary_photobiont``` were truncated because the unnamed columns did not appear to have values in them, but did inconsistently exist in many rows. This is why the ```jq -c 'del(.["column24"])'``` processing step was introduced. 
+
 
 ## provenance 
 ## bill of materials 
