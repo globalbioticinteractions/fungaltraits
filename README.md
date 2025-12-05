@@ -58,13 +58,64 @@ preston cat hash://md5/147d1eed43249ce2ac1f8b9fb63765b1 \
  > fungal-traits-sequences.csv.gz
 ```
 
-With first three records being:
+With first record being:
 
-| http://www.w3.org/ns/prov#wasDerivedFrom | http://purl.org/dc/elements/1.1/format | Sampling_area_Project | updated_study_DOI | Sequence_ID | Sequence_quality | INSD_original_data_Lineage | INSD_original_data_Organism | Identification_Taxon_name | Related_source_content_type | Related_source_identifier | INSD_original_data_Source | INSD_original_data_Tissue_type | DNA_isolation_source | Culture_source | Animal/human_tissue | Guild | Growth_form | Ectomycorrhiza_exploration_type | Ericoid_mycorrhiza_formation | Endophytic_interaction_capability | Plant/fungal_pathogenic_capacity | Animal/human_biotrophic_interaction_capacity | Interactions | Interacting_taxon | Co-occurring_taxa | INSD_original_data_Clone | INSD_original_data_Isolate | INSD_original_data_Culture_collection | Strain | Specimen_voucher | Type_status | Sampling_area_Locality_text | Sampling_area_Name | Country | Sampling_area_State/Province | Locality_text | Latitude | Longitude | Measurement__Elevation_max | Measurement__Elevation_min | Altitude | Measurement__Depth_min | Measurement__Depth_max | Depth | Habitat_Description | Habitat_IUCN_habitat_type | Biome | INSD_UNITE_remarks | Remarks | Annotator | column49 | column50 | PLUTOF_ID |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| line:xlsx:hash://md5/72e125ee5986aa61f587daa41d463b35!/fungal%20sequnce%20traits%20COMPLETED!/L2 | application/vnd.openxmlformats-officedocument.spreadsheetml.sheet | Morris,M.H., Perez-Perez,M.A., Smith,M.E. and Bledsoe,C.S.; Multiple species of ectomycorrhizal fungi are frequently detected on individual oak root tips in a tropical cloud forest; Mycorrhiza 18 (8), 375-383 (2008) | 10.1007/s00572-008-0186-1 | EU563475 | null | Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Pezizomycetes; Pezizales; environmental samples | uncultured Pezizales | null | Material Sample | Quercus root sample | ectomycorrhizal root tip | null | ectomycorrhiza | null | null | null | filamentous_mycelium | null | null | null | null | null | Quercus | Quercus crassifolia | Quercus laurina, Q. castanea | M104C | null | null | null | null | null | Mexico: Huizteco | Mexico | Mexico | Guerrero | Huizteco Park, c. 4.5 km north of Taxco | 18.6 | -99.6 | null | 2500 | 2500 | null | null | null | Subtropical montane Quercus forest | 13 - Marine Coastal/Supratidal | forest: tropical broadleaf forest biome | null | null | Adriana Corrales | null | null | 42981 |
-| line:xlsx:hash://md5/72e125ee5986aa61f587daa41d463b35!/fungal%20sequnce%20traits%20COMPLETED!/L3 | application/vnd.openxmlformats-officedocument.spreadsheetml.sheet | Morris,M.H., Perez-Perez,M.A., Smith,M.E. and Bledsoe,C.S.; Multiple species of ectomycorrhizal fungi are frequently detected on individual oak root tips in a tropical cloud forest; Mycorrhiza 18 (8), 375-383 (2008) | 10.1007/s00572-008-0186-1 | EU563476 | null | Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Pezizomycetes; Pezizales; Pyronemataceae; environmental samples | uncultured Pyronemataceae | null | Material Sample | Quercus root sample | ectomycorrhizal root tip | null | ectomycorrhiza | null | null | null | filamentous_mycelium | null | null | null | null | null | Quercus | Quercus crassifolia | Quercus laurina, Q. castanea | M65C3 | null | null | null | null | null | Mexico: Huizteco | Mexico | Mexico | Guerrero | Huizteco Park, c. 4.5 km north of Taxco | 18.6 | -99.6 | null | 2500 | 2500 | null | null | null | Subtropical montane Quercus forest | 13 - Marine Coastal/Supratidal | forest: tropical broadleaf forest biome | _could be basal to /otidea lineage | null | Adriana Corrales | null | null | 42980 |
-| line:xlsx:hash://md5/72e125ee5986aa61f587daa41d463b35!/fungal%20sequnce%20traits%20COMPLETED!/L4 | application/vnd.openxmlformats-officedocument.spreadsheetml.sheet | Morris,M.H., Perez-Perez,M.A., Smith,M.E. and Bledsoe,C.S.; Multiple species of ectomycorrhizal fungi are frequently detected on individual oak root tips in a tropical cloud forest; Mycorrhiza 18 (8), 375-383 (2008) | 10.1007/s00572-008-0186-1 | EU563477 | null | Eukaryota; Fungi; Dikarya; Basidiomycota; Agaricomycotina; Agaricomycetes; Agaricomycetidae; Agaricales; Tricholomataceae; environmental samples | uncultured Tricholoma | Tricholoma | Material Sample | Quercus root sample | ectomycorrhizal root tip | null | ectomycorrhiza | null | null | ectomycorrhizal | filamentous_mycelium | null | null | null | null | null | Quercus | Quercus crassifolia | Quercus laurina, Q. castanea | M60D4 | null | null | null | null | null | Mexico: Huizteco | Mexico | Mexico | Guerrero | Huizteco Park, c. 4.5 km north of Taxco | 18.6 | -99.6 | null | 2500 | 2500 | null | null | null | Subtropical montane Quercus forest | 13 - Marine Coastal/Supratidal | forest: tropical broadleaf forest biome | null | null | Adriana Corrales | null | null | 42979 |
+```
+http://www.w3.org/ns/prov#wasDerivedFrom     line:xlsx:hash://md5/72e125ee5986aa61f587daa41d463b35!/fungal%20sequnce%20traits%20COMPLETED!/L2
+http://purl.org/dc/elements/1.1/format       application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+Sampling_area_Project                        Morris,M.H., Perez-Perez,M.A., Smith,M.E. and Bledsoe,C.S.; Multiple species of ectomycorrhizal fungi are frequently detected on individual oak root tips in a tropical cloud forest; Mycorrhiza 18 (8), 375-383 (2008)
+updated_study_DOI                            10.1007/s00572-008-0186-1
+Sequence_ID                                  EU563475
+Sequence_quality                             null
+INSD_original_data_Lineage                   Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Pezizomycetes; Pezizales; environmental samples
+INSD_original_data_Organism                  uncultured Pezizales
+Identification_Taxon_name                    null
+Related_source_content_type                  Material Sample
+Related_source_identifier                    Quercus root sample
+INSD_original_data_Source                    ectomycorrhizal root tip
+INSD_original_data_Tissue_type               null
+DNA_isolation_source                         ectomycorrhiza
+Culture_source                               null
+Animal/human_tissue                          null
+Guild                                        null
+Growth_form                                  filamentous_mycelium
+Ectomycorrhiza_exploration_type              null
+Ericoid_mycorrhiza_formation                 null
+Endophytic_interaction_capability            null
+Plant/fungal_pathogenic_capacity             null
+Animal/human_biotrophic_interaction_capacity null
+Interactions                                 Quercus
+Interacting_taxon                            Quercus crassifolia
+Co-occurring_taxa                            Quercus laurina, Q. castanea
+INSD_original_data_Clone                     M104C
+INSD_original_data_Isolate                   null
+INSD_original_data_Culture_collection        null
+Strain                                       null
+Specimen_voucher                             null
+Type_status                                  null
+Sampling_area_Locality_text                  Mexico: Huizteco
+Sampling_area_Name                           Mexico
+Country                                      Mexico
+Sampling_area_State/Province                 Guerrero
+Locality_text                                Huizteco Park, c. 4.5 km north of Taxco
+Latitude                                     18.6
+Longitude                                    -99.6
+Measurement__Elevation_max                   null
+Measurement__Elevation_min                   2500
+Altitude                                     2500
+Measurement__Depth_min                       null
+Measurement__Depth_max                       null
+Depth                                        null
+Habitat_Description                          Subtropical montane Quercus forest
+Habitat_IUCN_habitat_type                    13 - Marine Coastal/Supratidal
+Biome                                        forest: tropical broadleaf forest biome
+INSD_UNITE_remarks                           null
+Remarks                                      null
+Annotator                                    Adriana Corrales
+column49                                     null
+column50                                     null
+PLUTOF_ID                                    42981
+```
 
 Note that the first two columns (i.e., ```http://www.w3.org/ns/prov#wasDerivedFrom```, ```http://purl.org/dc/elements/1.1/format```) document the sheet and excel sheet row number the csv row was derived from, as well as the original file type of the data source. In this case, the file type was always ```application/vnd.openxmlformats-officedocument.spreadsheetml.sheet``` which is the more formal mimetype of the commonly referred file type XLSX used by spreadsheet programs. 
 
@@ -96,14 +147,38 @@ preston cat hash://md5/147d1eed43249ce2ac1f8b9fb63765b1 \
 
 respectively.
 
-with first 3 records being
+with first record being
 
-| http://www.w3.org/ns/prov#wasDerivedFrom | http://purl.org/dc/elements/1.1/format | jrk_template | Phylum | Class | Order | Family | GENUS | COMMENT on genus | primary_lifestyle | Secondary_lifestyle | Comment_on_lifestyle_template | Endophytic_interaction_capability_template | Plant_pathogenic_capacity_template | Decay_substrate_template | Decay_type_template | Aquatic_habitat_template | Animal_biotrophic_capacity_template | Specific_hosts | Growth_form_template | Fruitbody_type_template | Hymenium_type_template | Ectomycorrhiza_exploration_type_template | Ectomycorrhiza_lineage_template | primary_photobiont | secondary_photobiont | column24 |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| line:xlsx:hash://md5/9168998921adc01b1cf63d9cdca8342e!/data!/L2 | application/vnd.openxmlformats-officedocument.spreadsheetml.sheet | jrk11009 | Ascomycota | Dothideomycetes | Asterinales | Asterinaceae | Pycnocarpon |  | epiphyte | litter_saprotroph |  | foliar_endophyte |  | leaf/fruit/seed |  | non-aquatic |  |  | filamentous_mycelium | thyrothecium_(tiny_flattened_disc,_aperture_in_the_middle) | closed |  |  |  |  |  |
-| line:xlsx:hash://md5/9168998921adc01b1cf63d9cdca8342e!/data!/L3 | application/vnd.openxmlformats-officedocument.spreadsheetml.sheet | jrk11010 | Ascomycota | Dothideomycetes | Asterinales | Neobueliellaceae | Neobueliella |  | lichen_parasite |  |  |  |  |  |  | non-aquatic |  |  | filamentous_mycelium | apothecium_(hymenium_on_surface) | smooth |  |  |  |  |  |
-| line:xlsx:hash://md5/9168998921adc01b1cf63d9cdca8342e!/data!/L4 | application/vnd.openxmlformats-officedocument.spreadsheetml.sheet | jrk11028 | Ascomycota | Dothideomycetes | Muyocopronales | Muyocopronaceae | Neocochlearomyces |  | plant_pathogen |  |  |  | leaf/fruit/seed_pathogen |  |  |  |  | Chromolaena | filamentous_mycelium |  |  |  |  |  |  |  |
 
+```
+http://www.w3.org/ns/prov#wasDerivedFrom   line:xlsx:hash://md5/9168998921adc01b1cf63d9cdca8342e!/data!/L2
+http://purl.org/dc/elements/1.1/format     application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+jrk_template                               jrk11009
+Phylum                                     Ascomycota
+Class                                      Dothideomycetes
+Order                                      Asterinales
+Family                                     Asterinaceae
+GENUS                                      Pycnocarpon
+COMMENT on genus                           
+primary_lifestyle                          epiphyte
+Secondary_lifestyle                        litter_saprotroph
+Comment_on_lifestyle_template              
+Endophytic_interaction_capability_template foliar_endophyte
+Plant_pathogenic_capacity_template         
+Decay_substrate_template                   leaf/fruit/seed
+Decay_type_template                        
+Aquatic_habitat_template                   non-aquatic
+Animal_biotrophic_capacity_template        
+Specific_hosts                             
+Growth_form_template                       filamentous_mycelium
+Fruitbody_type_template                    thyrothecium_(tiny_flattened_disc,_aperture_in_the_middle)
+Hymenium_type_template                     closed
+Ectomycorrhiza_exploration_type_template   
+Ectomycorrhiza_lineage_template            
+primary_photobiont                         
+secondary_photobiont                       
+column24                                   
+```
 
 ## provenance 
 ## bill of materials 
