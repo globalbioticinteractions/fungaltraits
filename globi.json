@@ -1,0 +1,236 @@
+{
+  "@context" : [ "http://www.w3.org/ns/csvw", {
+    "@language" : "en"
+  } ],
+  "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+  "tables" : [ {
+    "@context" : [ "http://www.w3.org/ns/csvw", {
+      "@language" : "en"
+    } ],
+    "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+    "url" : "fungal-sequence-traits.tsv.gz",
+    "dcterms:bibliographicCitation" : "Põlme, S., Abarenkov, K., Henrik Nilsson, R. et al. FungalTraits: a user-friendly traits database of fungi and fungus-like stramenopiles. Fungal Diversity 105, 1–16 (2020). https://doi.org/10.1007/s13225-020-00466-2",
+    "delimiter" : "\t",
+    "headerRowCount" : 1,
+    "null" : [ "null" ],
+    "tableSchema" : {
+      "columns" : [ {
+        "name" : "http://www.w3.org/ns/prov#wasDerivedFrom",
+        "titles" : "http://www.w3.org/ns/prov#wasDerivedFrom",
+        "datatype" : "string"
+      }, {
+        "name" : "http://purl.org/dc/elements/1.1/format",
+        "titles" : "http://purl.org/dc/elements/1.1/format",
+        "datatype" : "string"
+      }, {
+        "name" : "referenceCitation",
+        "titles" : "Sampling_area_Project",
+        "datatype" : "string"
+      }, {
+        "name" : "referenceDoi",
+        "titles" : "updated_study_DOI",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceOccurrenceId",
+        "titles" : "Sequence_ID",
+        "datatype" : "string"
+      }, {
+        "name" : "Sequence_quality",
+        "titles" : "Sequence_quality",
+        "datatype" : "string"
+      }, {
+        "name" : "INSD_original_data_Lineage",
+        "titles" : "INSD_original_data_Lineage",
+        "datatype" : "string"
+      }, {
+        "name" : "INSD_original_data_Organism",
+        "titles" : "INSD_original_data_Organism",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonName",
+        "titles" : "Identification_Taxon_name",
+        "datatype" : "string"
+      }, {
+        "name" : "basisOfRecordName",
+        "titles" : "Related_source_content_type",
+        "datatype" : "string"
+      }, {
+        "name" : "Related_source_identifier",
+        "titles" : "Related_source_identifier",
+        "datatype" : "string"
+      }, {
+        "name" : "INSD_original_data_Source",
+        "titles" : "INSD_original_data_Source",
+        "datatype" : "string"
+      }, {
+        "name" : "INSD_original_data_Tissue_type",
+        "titles" : "INSD_original_data_Tissue_type",
+        "datatype" : "string"
+      }, {
+        "name" : "targetBodyPartName",
+        "titles" : "DNA_isolation_source",
+        "datatype" : "string"
+      }, {
+        "name" : "Culture_source",
+        "titles" : "Culture_source",
+        "datatype" : "string"
+      }, {
+        "name" : "Animal/human_tissue",
+        "titles" : "Animal/human_tissue",
+        "datatype" : "string"
+      }, {
+        "name" : "interactionTypeName",
+        "titles" : "Guild",
+        "datatype" : "string"
+      }, {
+        "name" : "Growth_form",
+        "titles" : "Growth_form",
+        "datatype" : "string"
+      }, {
+        "name" : "Ectomycorrhiza_exploration_type",
+        "titles" : "Ectomycorrhiza_exploration_type",
+        "datatype" : "string"
+      }, {
+        "name" : "Ericoid_mycorrhiza_formation",
+        "titles" : "Ericoid_mycorrhiza_formation",
+        "datatype" : "string"
+      }, {
+        "name" : "Endophytic_interaction_capability",
+        "titles" : "Endophytic_interaction_capability",
+        "datatype" : "string"
+      }, {
+        "name" : "Plant/fungal_pathogenic_capacity",
+        "titles" : "Plant/fungal_pathogenic_capacity",
+        "datatype" : "string"
+      }, {
+        "name" : "Animal/human_biotrophic_interaction_capacity",
+        "titles" : "Animal/human_biotrophic_interaction_capacity",
+        "datatype" : "string"
+      }, {
+        "name" : "Interactions",
+        "titles" : "Interactions",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonName",
+        "titles" : "Interacting_taxon",
+        "datatype" : "string"
+      }, {
+        "name" : "Co-occurring_taxa",
+        "titles" : "Co-occurring_taxa",
+        "datatype" : "string"
+      }, {
+        "name" : "INSD_original_data_Clone",
+        "titles" : "INSD_original_data_Clone",
+        "datatype" : "string"
+      }, {
+        "name" : "INSD_original_data_Isolate",
+        "titles" : "INSD_original_data_Isolate",
+        "datatype" : "string"
+      }, {
+        "name" : "INSD_original_data_Culture_collection",
+        "titles" : "INSD_original_data_Culture_collection",
+        "datatype" : "string"
+      }, {
+        "name" : "Strain",
+        "titles" : "Strain",
+        "datatype" : "string"
+      }, {
+        "name" : "Specimen_voucher",
+        "titles" : "Specimen_voucher",
+        "datatype" : "string"
+      }, {
+        "name" : "Type_status",
+        "titles" : "Type_status",
+        "datatype" : "string"
+      }, {
+        "name" : "Sampling_area_Locality_text",
+        "titles" : "Sampling_area_Locality_text",
+        "datatype" : "string"
+      }, {
+        "name" : "Sampling_area_Name",
+        "titles" : "Sampling_area_Name",
+        "datatype" : "string"
+      }, {
+        "name" : "Country",
+        "titles" : "Country",
+        "datatype" : "string"
+      }, {
+        "name" : "Sampling_area_State/Province",
+        "titles" : "Sampling_area_State/Province",
+        "datatype" : "string"
+      }, {
+        "name" : "Locality_text",
+        "titles" : "Locality_text",
+        "datatype" : "string"
+      }, {
+        "name" : "decimalLatitude",
+        "titles" : "Latitude",
+        "datatype" : "string"
+      }, {
+        "name" : "decimalLongitude",
+        "titles" : "Longitude",
+        "datatype" : "string"
+      }, {
+        "name" : "Measurement__Elevation_max",
+        "titles" : "Measurement__Elevation_max",
+        "datatype" : "string"
+      }, {
+        "name" : "Measurement__Elevation_min",
+        "titles" : "Measurement__Elevation_min",
+        "datatype" : "string"
+      }, {
+        "name" : "Altitude",
+        "titles" : "Altitude",
+        "datatype" : "string"
+      }, {
+        "name" : "Measurement__Depth_min",
+        "titles" : "Measurement__Depth_min",
+        "datatype" : "string"
+      }, {
+        "name" : "Measurement__Depth_max",
+        "titles" : "Measurement__Depth_max",
+        "datatype" : "string"
+      }, {
+        "name" : "Depth",
+        "titles" : "Depth",
+        "datatype" : "string"
+      }, {
+        "name" : "Habitat_Description",
+        "titles" : "Habitat_Description",
+        "datatype" : "string"
+      }, {
+        "name" : "Habitat_IUCN_habitat_type",
+        "titles" : "Habitat_IUCN_habitat_type",
+        "datatype" : "string"
+      }, {
+        "name" : "habitatName",
+        "titles" : "Biome",
+        "datatype" : "string"
+      }, {
+        "name" : "INSD_UNITE_remarks",
+        "titles" : "INSD_UNITE_remarks",
+        "datatype" : "string"
+      }, {
+        "name" : "Remarks",
+        "titles" : "Remarks",
+        "datatype" : "string"
+      }, {
+        "name" : "Annotator",
+        "titles" : "Annotator",
+        "datatype" : "string"
+      }, {
+        "name" : "column49",
+        "titles" : "column49",
+        "datatype" : "string"
+      }, {
+        "name" : "column50",
+        "titles" : "column50",
+        "datatype" : "string"
+      }, {
+        "name" : "PLUTOF_ID",
+        "titles" : "PLUTOF_ID",
+        "datatype" : "string"
+      } ]
+    }
+  } ]
+}

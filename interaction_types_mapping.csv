@@ -1,0 +1,12 @@
+provided_interaction_type_label,provided_interaction_type_id,mapped_to_interaction_type_label,mapped_to_interaction_type_id
+animal_pathogen,,pathogenOf,http://purl.obolibrary.org/obo/RO_0002556
+arbuscular_mycorrhizal,,hasArbuscularMycorrhizalHost,http://purl.obolibrary.org/obo/RO_0002454
+ectomycorrhizal,,hasEctomycorrhizalHost,http://purl.obolibrary.org/obo/RO_0002454
+mycoparasite,,parasiteOf,http://purl.obolibrary.org/obo/RO_0002444
+other,,interactsWith,http://purl.obolibrary.org/obo/RO_0002434
+pathogen_other,,pathogenOf,http://purl.obolibrary.org/obo/RO_0002556
+plant_pathogen,,pathogenOf,http://purl.obolibrary.org/obo/RO_0002556
+root_endophyte,,hasHost,http://purl.obolibrary.org/obo/RO_0002454
+soil_saprotroph,,hasHost,http://purl.obolibrary.org/obo/RO_0002454
+unspecified_saprotroph,,hasHost,http://purl.obolibrary.org/obo/RO_0002454
+wood_saprotroph,,hasHost,http://purl.obolibrary.org/obo/RO_0002454
