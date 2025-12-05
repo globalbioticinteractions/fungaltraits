@@ -232,5 +232,129 @@
         "datatype" : "string"
       } ]
     }
+  }, {
+    "@context" : [ "http://www.w3.org/ns/csvw", {
+      "@language" : "en"
+    } ],
+    "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+    "url" : "polme2020-s1-fungal-traits-genera.tsv",
+    "dcterms:bibliographicCitation" : "Põlme, S., Abarenkov, K., Henrik Nilsson, R. et al. FungalTraits: a user-friendly traits database of fungi and fungus-like stramenopiles. Fungal Diversity 105, 1–16 (2020). https://doi.org/10.1007/s13225-020-00466-2",
+    "delimiter" : "\t",
+    "headerRowCount" : 1,
+    "null" : [ "" ],
+    "interactionTypeName": "hasHost",
+    "interactionTypeId": "http://purl.obolibrary.org/obo/RO_0002454",
+    "tableSchema" : {
+      "columns" : [ {
+        "name" : "http://www.w3.org/ns/prov#wasDerivedFrom",
+        "titles" : "http://www.w3.org/ns/prov#wasDerivedFrom",
+        "datatype" : "string"
+      }, {
+        "name" : "http://purl.org/dc/elements/1.1/format",
+        "titles" : "http://purl.org/dc/elements/1.1/format",
+        "datatype" : "string"
+      }, {
+        "name" : "jrk_template",
+        "titles" : "jrk_template",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonPhylumName",
+        "titles" : "Phylum",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonClassName",
+        "titles" : "Class",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonOrderName",
+        "titles" : "Order",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonFamilyName",
+        "titles" : "Family",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonGenusName",
+        "titles" : "GENUS",
+        "datatype" : "string"
+      }, {
+        "name" : "COMMENT on genus",
+        "titles" : "COMMENT on genus",
+        "datatype" : "string"
+      }, {
+        "name" : "primary_lifestyle",
+        "titles" : "primary_lifestyle",
+        "datatype" : "string"
+      }, {
+        "name" : "Secondary_lifestyle",
+        "titles" : "Secondary_lifestyle",
+        "datatype" : "string"
+      }, {
+        "name" : "Comment_on_lifestyle_template",
+        "titles" : "Comment_on_lifestyle_template",
+        "datatype" : "string"
+      }, {
+        "name" : "Endophytic_interaction_capability_template",
+        "titles" : "Endophytic_interaction_capability_template",
+        "datatype" : "string"
+      }, {
+        "name" : "Plant_pathogenic_capacity_template",
+        "titles" : "Plant_pathogenic_capacity_template",
+        "datatype" : "string"
+      }, {
+        "name" : "Decay_substrate_template",
+        "titles" : "Decay_substrate_template",
+        "datatype" : "string"
+      }, {
+        "name" : "Decay_type_template",
+        "titles" : "Decay_type_template",
+        "datatype" : "string"
+      }, {
+        "name" : "Aquatic_habitat_template",
+        "titles" : "Aquatic_habitat_template",
+        "datatype" : "string"
+      }, {
+        "name" : "Animal_biotrophic_capacity_template",
+        "titles" : "Animal_biotrophic_capacity_template",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonName",
+        "titles" : "Specific_hosts",
+        "separator": ",",
+        "datatype" : "string"
+      }, {
+        "name" : "Growth_form_template",
+        "titles" : "Growth_form_template",
+        "datatype" : "string"
+      }, {
+        "name" : "Fruitbody_type_template",
+        "titles" : "Fruitbody_type_template",
+        "datatype" : "string"
+      }, {
+        "name" : "Hymenium_type_template",
+        "titles" : "Hymenium_type_template",
+        "datatype" : "string"
+      }, {
+        "name" : "Ectomycorrhiza_exploration_type_template",
+        "titles" : "Ectomycorrhiza_exploration_type_template",
+        "datatype" : "string"
+      }, {
+        "name" : "Ectomycorrhiza_lineage_template",
+        "titles" : "Ectomycorrhiza_lineage_template",
+        "datatype" : "string"
+      }, {
+        "name" : "primary_photobiont",
+        "titles" : "primary_photobiont",
+        "datatype" : "string"
+      }, {
+        "name" : "secondary_photobiont",
+        "titles" : "secondary_photobiont",
+        "datatype" : "string"
+      }, {
+        "name" : "column24",
+        "titles" : "column24",
+        "datatype" : "string"
+      } ]
+    }
   } ]
 }
