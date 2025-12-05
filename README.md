@@ -14,14 +14,14 @@ or
 
 | name | description | origin |
 | --- | --- | --- |
-| polme2020-s1-fungal-traits-genera.csv | comma-separated values of content of "data" sheet in Põlme et al. 2020 Table S1. Traits of genera. Supplementary material 4 (XLSX 967 kb)| see #fungal-traits-of-genera
-| polme2020-s1-fungal-traits-genera.tsv | idem, but in tab-separated values format | idem
-| polme2020-s2-fungal-traits-sequences.csv.gz | comma-separated values of Põlme et al. 2020 Table S2. Traits of sequences. Supplementary material 5 (XLSX 56685 kb) | see #fungal-traits-of-sequences
-| polme2020-s2-fungal-traits-sequences.tsv.gz | idem, but in tab-separated values format | idem |
-| biblio.bib | contains citation of Põlme et al. 2020 in bibtex | manually entered to aid GloBI data review |
-| globi.json | contains configuration to help GloBI index Põlme et al. 2020 tables S1 and S2 | automatically generated using ```elton init``` then manually configured |
-| interaction_types_mapping.csv | translation table to relate terms in Põlme et al. 2020 to equivalent terms in the Relation Ontology | manually curated |
-| README.md | this file | automatically generated using ```elton init``` then manually edited |
+| [polme2020-s1-fungal-traits-genera.csv](polme2020-s1-fungal-traits-genera.csv) | comma-separated values of content of "data" sheet in Põlme et al. 2020 Table S1. Traits of genera. Supplementary material 4 (XLSX 967 kb)| see [Fungal Traits Of Genera](#fungal-traits-of-genera)
+| [polme2020-s1-fungal-traits-genera.tsv](polme2020-s1-fungal-traits-genera.tsv) | idem, but in tab-separated values format | idem
+| [polme2020-s2-fungal-traits-sequences.csv.gz](polme2020-s2-fungal-traits-sequences.csv.gz) | comma-separated values of Põlme et al. 2020 Table S2. Traits of sequences. Supplementary material 5 (XLSX 56685 kb) | see [Fungal Traits of Sequences](#fungal-traits-of-sequences)
+| [polme2020-s2-fungal-traits-sequences.tsv.gz](polme2020-s2-fungal-traits-sequences.tsv.gz) | idem, but in tab-separated values format | idem |
+| [biblio.bib](biblio.bib) | contains citation of Põlme et al. 2020 in bibtex | manually entered to aid GloBI data review |
+| [globi.json](globi.json) | contains configuration to help GloBI index Põlme et al. 2020 tables S1 and S2 | automatically generated using ```elton init``` then manually configured |
+| [interaction_types_mapping.csv](interaction_types_mapping.csv) | translation table to relate terms in Põlme et al. 2020 to equivalent terms in the Relation Ontology | manually curated |
+| [README.md](README.md) | this file | automatically generated using ```elton init``` then manually edited |
 
 
 To help aid machine-readability of the data appendices of Põlme et al. 2020, snapshots of three data appendices were made using:
@@ -182,6 +182,10 @@ column24
 
 ## provenance 
 ## bill of materials 
+
+This section is meant for machines, not for humans, and documents the origin (or provenance) of the data appendices in rdf/nquads using techniques inspired by:
+
+> Elliott, M.J., Poelen, J.H. & Fortes, J.A.B. Signing data citations enables data verification and citation persistence. Sci Data 10, 419 (2023). [https://doi.org/10.1038/s41597-023-02230-y](https://doi.org/10.1038/s41597-023-02230-y).
 
 ```
 <https://preston.guoda.bio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#SoftwareAgent> <urn:uuid:19cfc894-9f3e-4a64-999a-818b9dd8a14b> .
