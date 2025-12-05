@@ -8,7 +8,7 @@
       "@language" : "en"
     } ],
     "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
-    "url" : "fungal-sequence-traits.tsv.gz",
+    "url" : "polme2020-s2-fungal-traits-sequences.tsv.gz",
     "dcterms:bibliographicCitation" : "Põlme, S., Abarenkov, K., Henrik Nilsson, R. et al. FungalTraits: a user-friendly traits database of fungi and fungus-like stramenopiles. Fungal Diversity 105, 1–16 (2020). https://doi.org/10.1007/s13225-020-00466-2",
     "delimiter" : "\t",
     "headerRowCount" : 1,
