@@ -35,7 +35,7 @@ https://static-content.springer.com/esm/art%3A10.1007%2Fs13225-020-00466-2/Media
 
 ## Fungal Traits of Sequences
 
-then, the file ```https://static-content.springer.com/esm/art%3A10.1007%2Fs13225-020-00466-2/MediaObjects/13225_2020_466_MOESM5_ESM.xlsx``` with fingerprint ```hash://md5/72e125ee5986aa61f587daa41d463b35``` and referred to as ```Table S2. Traits of sequences. Supplementary material 5 (XLSX 56685 kb)``` was transformed in a gzip compressed tab-separated values file ```fungal-traits-sequences.tsv.gz``` using:
+then, the file ```https://static-content.springer.com/esm/art%3A10.1007%2Fs13225-020-00466-2/MediaObjects/13225_2020_466_MOESM5_ESM.xlsx``` with fingerprint ```hash://md5/72e125ee5986aa61f587daa41d463b35``` and referred to as ```Table S2. Traits of sequences. Supplementary material 5 (XLSX 56685 kb)``` was transformed in a gzip compressed tab-separated values file ```polme2020-s2-fungal-traits-sequences.tsv.gz``` using:
 
 ```bash
 preston cat hash://md5/147d1eed43249ce2ac1f8b9fb63765b1 \
@@ -44,7 +44,7 @@ preston cat hash://md5/147d1eed43249ce2ac1f8b9fb63765b1 \
  | preston xlsx-stream \
  | mlr --ijsonl --otsvlite cat \
  | gzip \
- > fungal-traits-sequences.tsv.gz
+ > polme2020-s2-fungal-traits-sequences.tsv.gz
 ```
 and 
 
@@ -55,7 +55,7 @@ preston cat hash://md5/147d1eed43249ce2ac1f8b9fb63765b1 \
  | preston xlsx-stream \
  | mlr --ijsonl --ocsv cat \
  | gzip \
- > fungal-traits-sequences.csv.gz
+ > polme2020-s2-fungal-traits-sequences.csv.gz
 ```
 
 With first record being:
@@ -130,7 +130,7 @@ preston cat hash://md5/147d1eed43249ce2ac1f8b9fb63765b1 \
  | preston xlsx-stream \
  | grep 'line:xlsx:hash://md5/9168998921adc01b1cf63d9cdca8342e!/data!/L' \
  | mlr --ijsonl --otsvlite cat \
- > fungal-traits-genera.tsv 
+ > polme2020-s1-fungal-traits-genera.tsv 
 ```
 
 and 
@@ -142,7 +142,7 @@ preston cat hash://md5/147d1eed43249ce2ac1f8b9fb63765b1 \
  | preston xlsx-stream \
  | grep 'line:xlsx:hash://md5/9168998921adc01b1cf63d9cdca8342e!/data!/L' \ 
  | mlr --ijsonl --ocsv cat \
- > fungal-traits-genera.csv
+ > polme2020-s1-fungal-traits-genera.csv
 ```
 
 respectively.
