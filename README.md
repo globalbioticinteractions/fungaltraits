@@ -119,7 +119,7 @@ PLUTOF_ID                                    42981
 
 Note that the first two columns (i.e., ```http://www.w3.org/ns/prov#wasDerivedFrom```, ```http://purl.org/dc/elements/1.1/format```) document the sheet and excel sheet row number the csv row was derived from, as well as the original file type of the data source. In this case, the file type was always ```application/vnd.openxmlformats-officedocument.spreadsheetml.sheet``` which is the more formal mimetype of the commonly referred file type XLSX used by spreadsheet programs. 
 
-## Fungal Traits for Genera
+## Fungal Traits of Genera
 
 Similarly, the associated fungal traits appendix for genera was converted to tsv/csv using  
 
